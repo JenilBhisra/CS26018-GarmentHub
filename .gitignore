@@ -1,0 +1,70 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+/dist
+
+# misc
+.DS_Store
+Thumbs.db
+*.pem
+*.key
+*.p12
+*.pfx
+
+# debug and logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.log
+logs/
+
+# env files (only the placeholder template is committed)
+.env*
+!.env.example
+
+# database dumps and local backups (may contain real data)
+# (root-level only, so prisma/migrations/*.sql stays committed)
+/*.sql
+*.sql.gz
+*.dump
+*.backup
+/backups/
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# KYC documents (sensitive business uploads - never commit)
+/kyc-documents
+
+# runtime-generated file uploads (test/dev artifacts, not source)
+/public/uploads
+/temp-uploads
+
+# reference screenshots from a third-party OMS portal (contain real buyer/order data)
+/Screenshot/
+
+# local tool settings
+/.claude/
