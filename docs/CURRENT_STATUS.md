@@ -108,16 +108,17 @@ Most errors are in the admin pages (73) and seller pages (61). These were not fi
 
 ## 6. Remaining work
 
-Remaining tasks are tracked as GitHub issues, grouped into milestones:
+Remaining tasks are tracked as [GitHub issues](https://github.com/JenilBhisra/CS26018-GarmentHub/issues), grouped into [milestones](https://github.com/JenilBhisra/CS26018-GarmentHub/milestones). Milestones have no due dates yet.
 
-| Milestone | Task |
-|---|---|
-| Fulfilment and Returns Completion | Add the Tag Loop verification screen to return inspection |
-| Fulfilment and Returns Completion | Record opening stock in the inventory ledger when a product is created |
-| Quality, Testing and Security | Fix the test data so all 14 Vitest tests pass on a freshly seeded test database |
-| Quality, Testing and Security | Fix ESLint errors so `npm run lint` passes |
-| Quality, Testing and Security | Rename `middleware.ts` to the Next.js 16 `proxy` convention and fix the other build/config warnings |
-| Accounts and Integrations | Implement forgot-password (reset by email) |
-| Accounts and Integrations | Replace simulated email and payment with real providers |
-| Accounts and Integrations | Add a courier integration, or a clearer manual courier workflow |
-| Amazon Integration Preparation | Prepare the Amazon SP-API connection (registration, connector design, mock connector) |
+| Milestone | Issue | Task |
+|---|---|---|
+| Fulfilment and Returns Completion | [#1](https://github.com/JenilBhisra/CS26018-GarmentHub/issues/1) | Add Tag Loop verification screen for return inspection |
+| Fulfilment and Returns Completion | [#2](https://github.com/JenilBhisra/CS26018-GarmentHub/issues/2) | Record opening stock in the inventory ledger when a product is created |
+| Quality, Testing and Security | [#3](https://github.com/JenilBhisra/CS26018-GarmentHub/issues/3) | Fix test data so all 14 Vitest tests pass on a freshly seeded test database |
+| Quality, Testing and Security | [#4](https://github.com/JenilBhisra/CS26018-GarmentHub/issues/4) | Fix ESLint errors so `npm run lint` passes |
+| Quality, Testing and Security | [#5](https://github.com/JenilBhisra/CS26018-GarmentHub/issues/5) | Rename `middleware.ts` to `proxy.ts` and clear build and config warnings |
+| Accounts and Integrations | [#6](https://github.com/JenilBhisra/CS26018-GarmentHub/issues/6) | Implement forgot-password (password reset by email) |
+| Accounts and Integrations | [#7](https://github.com/JenilBhisra/CS26018-GarmentHub/issues/7) | Send real emails instead of printing them to the console |
+| Accounts and Integrations | [#8](https://github.com/JenilBhisra/CS26018-GarmentHub/issues/8) | Add an online payment gateway at checkout |
+| Accounts and Integrations | [#9](https://github.com/JenilBhisra/CS26018-GarmentHub/issues/9) | Courier integration for shipments (replace manual courier entry) |
+| Amazon Integration Preparation | [#10](https://github.com/JenilBhisra/CS26018-GarmentHub/issues/10) | Prepare Amazon SP-API connection (registration, connector design, mock connector) |

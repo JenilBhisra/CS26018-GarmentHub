@@ -191,6 +191,17 @@ docs/           Project documentation for submission
 
 `CLAUDE.md` and `AGENTS.md` hold project handover notes and instructions written for AI coding assistants used during development. `proposal.md` is the earlier project proposal.
 
+## Project tracking
+
+Remaining work is tracked in [GitHub Issues](https://github.com/JenilBhisra/CS26018-GarmentHub/issues), grouped into four [milestones](https://github.com/JenilBhisra/CS26018-GarmentHub/milestones):
+
+- Fulfilment and Returns Completion
+- Quality, Testing and Security
+- Accounts and Integrations
+- Amazon Integration Preparation
+
+The full list is in [docs/CURRENT_STATUS.md](docs/CURRENT_STATUS.md#6-remaining-work).
+
 ## Git workflow (branches and pull requests)
 
 After the first upload, all changes go through branches and pull requests:
