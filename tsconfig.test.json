@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "strict": false,
+    "paths": {
+      "next-auth": ["./scripts/mock-next-auth.ts"],
+      "next/cache": ["./scripts/mock-next-cache.ts"],
+      "@/*": ["./*"]
+    }
+  }
+}
